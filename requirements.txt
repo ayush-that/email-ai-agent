@@ -1,0 +1,8 @@
+openai
+torch
+PyPDF2
+pyyaml
+beautifulsoup4
+lxml
+python-dotenv
+numpy

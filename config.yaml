@@ -1,0 +1,10 @@
+vault_file: "vault.txt"
+embeddings_file: "vault_embeddings.json"
+top_k: 7
+system_message: "You are a helpful assistant that is an expert at extracting the most useful information from a given text"
+
+openai:
+  model: "gpt-3.5-turbo"
+  temperature: 0.7
+  max_tokens: 1000
+  api_key: "" # Should be set via OPENAI_API_KEY environment variable
